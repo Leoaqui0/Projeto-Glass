@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(173, 173, 173);
+    color: rgba(0, 0, 0, 1);
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+figure.foto-legenda{
+    border: 8px solid #ffffffa1;
+    box-shadow: 1px 1px 4px;
+    position: relative;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(40, 40, 40, 0.4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    transition: 0.5s;
+
+}
+
+figure.foto-legenda figcaption:hover{
+    opacity: 1;
+}
