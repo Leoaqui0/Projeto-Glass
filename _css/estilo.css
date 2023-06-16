@@ -1,15 +1,14 @@
 body{
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(184, 176, 176);
     color: rgba(0, 0, 0, 1);
 }
-
 p{
     text-align: justify;
     text-indent: 50px;
 }
 
 figure.foto-legenda{
-    border: 8px solid #ffffffa1;
+    border: 8px solid gray;
     box-shadow: 1px 1px 4px;
     position: relative;
 }
@@ -28,11 +27,67 @@ figure.foto-legenda figcaption{
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: white;
     transition: 0.5s;
-
 }
 
 figure.foto-legenda figcaption:hover{
     opacity: 1;
+
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 750px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #777777;
+    padding: 10px;
+    margin: 10px 4px 4px 4px;
+    transition: background-color 0.4s;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    
+}
+
+nav#menu li:hover{
+    background-color: #3d3d3d;
+}
+
+
+nav#menu h2{
+    display: none;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+nav#menu a:hover{
+    color: #fff
+}
+
+div#interface{
+    width: 900px;
+    background-color: #fff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1215px;
+    top: 70px;
+}
+
+header#cabecalho{
+    border-bottom: 1px solid #3d3d3d;
 }
